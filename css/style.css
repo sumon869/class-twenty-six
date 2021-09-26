@@ -1,0 +1,150 @@
+body{
+    font-family: 'Spartan', sans-serif;
+}
+a{
+    font-family: 'Spartan', sans-serif;  
+}
+/* custom csss */
+.left-header p{
+    color: rgb(109, 108, 108);
+    font-weight: 500;
+}
+
+.solutions{
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+}
+.solutions::after{
+    content: "";
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+    width: 15%;
+    height: 2px;
+    background-color:#0d85fe ;
+}
+.mian-center{
+    flex-wrap: wrap;
+}
+.right-header{
+    width: 100%;
+    display: flex;
+}
+.flex-item{
+    width: 30%;
+    box-shadow: 0px 0px 2px #ddd;
+    padding: 20px;
+    transition: .5s;
+}
+.flex-item:hover{
+    background: rgb(241, 238, 238);
+}
+/* blog-section */
+
+.blog-section{
+    width: 30%;
+}
+.solutiona{
+    position: relative;
+    font-size: 25px;
+    font-weight: 700;
+}
+.solutiona::after {
+    content: "";
+    position: absolute;
+    bottom: 5%;
+    left: 47%;
+    width: 10%;
+    height: 2px;
+    background-color: #0d85fe;
+}
+/* all card css */
+.pricing-card{
+position: relative;
+}
+.fiverr-work {
+    position: absolute;
+    content: "";
+    top: 40%;
+    left: 50%;
+}
+.new-box{
+    border: none !important;
+    box-shadow: 0px 0px 1px #ddd;
+}
+.fiverr{
+    background-color: #0d85fe;
+    width: 160px;
+    padding: 5px;
+    border-radius: 30px;
+}
+.me-text{
+    color: rgb(121, 121, 121);
+}
+.fiverr span{
+    font-size: 12px;
+    font-weight: 600;
+}
+.fiverr img{
+    width: 30px;
+    border-radius: 50%;
+    
+}
+/* footer section */
+.lfwf img{
+    width: 100px;
+    margin-bottom:20px ;
+}
+.lfwf ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.lfwf ul li{
+    margin-left: 0%;
+}
+.lfwf ul li a {
+    color: #fff;
+    padding: 12px 23px 5px 2px;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.manu-footer h5{
+font-size: 18px;
+position: relative;
+}
+.manu-footer h5::before {
+    content: "";
+    position: absolute;
+    top: -1%;
+    left: -4%;
+    width: 3px;
+    height: 20px;
+    background: #0d85fe;
+}
+.manu-footer ul{
+    padding-left:0;
+}
+.manu-footer ul li{
+    list-style: none;
+    margin-left: 0%;
+}
+.manu-footer ul li a{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    line-height: 35px;
+    transition: all 0.4s ease-in-out;
+}
+.manu-footer ul li a:hover{
+    color: red;
+}
+
+.last-footer{
+    color: #fff;
+    background: rgb(0, 0, 0);
+    border-top: 1px solid #ddd;
+}
